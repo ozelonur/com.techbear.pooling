@@ -55,6 +55,11 @@ namespace TechBear.Pooling
             obj.transform.parent = _poolParent;
             _objects.Enqueue(obj);
         }
+        
+        public void ReverseQueue()
+        {
+            _objects = new Queue<int>(_objects.Reverse());
+        }
 
         #endregion
 

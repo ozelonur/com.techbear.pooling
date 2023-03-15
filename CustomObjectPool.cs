@@ -9,7 +9,7 @@ namespace TechBear.Pooling
         #region Private Variables
 
         private readonly Transform _poolParent;
-        private readonly Queue<T> _objects;
+        private Queue<T> _objects;
         private readonly T _prefab;
 
         #endregion

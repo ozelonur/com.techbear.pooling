@@ -59,7 +59,7 @@ namespace TechBear.Pooling
         
         public void ReverseQueue()
         {
-            _objects = new Queue<int>(_objects.Reverse());
+            _objects = new Queue<T>(_objects.Reverse());
         }
 
         #endregion
